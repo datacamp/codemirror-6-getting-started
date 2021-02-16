@@ -1,0 +1,27 @@
+{
+  "name": "codemirror-6-getting-started",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "lint": "yarn eslint . --ext ts,js,json --ignore-path .gitignore",
+    "clean": "rm -rf dist .cache"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@datacamp/eslint-config": "^5.0.0",
+    "@datacamp/prettier-config": "^2.1.0",
+    "eslint": "^7.20.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "@codemirror/basic-setup": "^0.17.1",
+    "@codemirror/highlight": "^0.17.2",
+    "@codemirror/lang-javascript": "^0.17.1",
+    "@codemirror/view": "^0.17.7"
+  }
+}
