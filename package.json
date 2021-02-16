@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html",
+    "start": "parcel src/index.html",
     "lint": "yarn eslint . --ext ts,js,json --ignore-path .gitignore",
     "clean": "rm -rf dist .cache"
   },
