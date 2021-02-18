@@ -1,7 +1,7 @@
 CodeMirror 6: Getting Started
 ===
 
-This is a demo of the basic features and customisation options for the new CodeMirror v6 editor.
+This is a demo of the basic features and customisation options for the new CodeMirror v6 editor. It accompanies [my post](https://medium.com/datacamp-engineering/codemirror-6-getting-started-7fd08f467ed2) on the DataCamp engineering blog.
 
 ## Usage
 Install dependencies:
